@@ -1,0 +1,32 @@
+/* 폰트 크기 */
+$font-size-large: 24px;
+$font-size-medium: 18px;
+$font-size-small: 14px;
+
+/* 폰트 두께 */
+$font-weight-bold: 700;
+$font-weight-semi-bold: 600;
+$font-weight-regular: 400;
+
+/* 색상 */
+$color-white: #ffffff;
+$color-light-white: rgb(233, 233, 233);
+$color-dark-grey: #646262;
+$color-grey: #595959;
+$color-light-grey: #bfbfbf;
+$color-blue: #40a9ff;
+$color-black: #000000;
+
+/* 테두리 모서리 */
+$border-radius-large: 16px;
+$border-radius-middle: 8px;
+$border-radius-small: 4px;
+
+/* 기기 너비 */
+$mobile-width: 450px;
+:export {
+  mobile_width: $mobile-width;
+}
+
+/* 헤더 색상 지정 */
+$header-bg: $color-dark-grey;
