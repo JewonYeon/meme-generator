@@ -1,1 +1,1 @@
-# meme-generator
+# 짤방 생성기
