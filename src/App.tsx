@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.module.scss";
 import { Header, Layout } from "@components/index";
-import { Routers } from "@routes/index";
+import { Routes } from "@routes/index";
 import styles from "./App.module.scss";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <>
       <Header />
       <Layout>
-        <Routers />
+        <Routes />
       </Layout>
     </>
   );
